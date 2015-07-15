@@ -17,8 +17,10 @@
       opts.container = $(this);
     }
     /* 建立并插入有序列表 */
-    var tree = createTree(opts.json.data);
-    debugger;
+    var data = [];
+    data.push(opts.json.retData);
+    var tree = createTree(data);
+
     $(this).html(tree);
 
     return this.each(function() {
@@ -229,7 +231,7 @@
     if(jsons != null){
       var ul = '<ul style="display:none">' ;
       for(var i=0;i<jsons.length;i++){
-        ul += '<li>' + jsons[i].label;
+        ul += '<li>' + jsons[i].name;
         if (undefined != jsons[i].children && jsons[i].children != 0) {
           ul += createTree(jsons[i].children) ;
         }
