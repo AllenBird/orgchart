@@ -63,7 +63,6 @@ div.orgChart div.node {
   width                 : 70px;
   background-color      : #5d9cec;
   color                 : #ffffff !important;
-  height                : 128px;
   border-radius         : 4px;
   box-shadow            : 0 1px 1px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow    : 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -71,20 +70,20 @@ div.orgChart div.node {
 
 div.orgChart div.level0 {
   background-color      : #7266ba !important;
-  width                 : 210px;
-  height                : 70px;
+  width                 : 190px;
+  min-height            : 70px;
 }
 
 div.orgChart div.level1 {
   background-color      : #37bc9b !important;
-  width                 : 189px;
-  height                : 70px;
+  width                 : 190px;
+  min-height            : 70px;
 }
 
 div.orgChart div.level2 {
   background-color      : #37bc9b !important;
-  width                 : 170px;
-  height                : 70px;
+  width                 : 190px;
+  min-height            : 70px;
 }
 
 div.orgChart div.hasChildren {
