@@ -13,6 +13,7 @@ div.orgChart h3 {
   margin                : 10px 15px;
   font-size             : 16px;
   border-bottom         : none;
+  word-wrap             : break-word;
 }
 
 div.orgChart ul {
